@@ -1,0 +1,10 @@
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install apache2 -y
+sudo ufw enable
+sudo ufw allow 'Apache Full'
+sudo apt-get install mysql-server -y
+sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl -y
+sudo phpenmod mbstring
+sudo apt install --reinstall php
+sudo apt install python3.10-venv
+apt install unzip
